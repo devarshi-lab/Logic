@@ -50,7 +50,7 @@ int main()
             scanf("%d",&iArr[iCnt]);
         }
         iCount = Eleven(iArr,iNo);
-        if(iCount)
+        if(iCount == 1)
         {
             printf("\n11 is Present\n");
         }
